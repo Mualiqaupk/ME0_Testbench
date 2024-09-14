@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="bootloop" key="HDLC_DPA_wrapper_hw_platform_0-microblaze_0-initElf"/>
+	<item value="HDLC_DPA_wrapper.mmi" key="HDLC_DPA_wrapper_hw_platform_0-bmmFile"/>
+	<item value="HDLC_DPA_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="false" key="HDLC_DPA_wrapper_hw_platform_0-partial_bit"/>
+	<item value="Local" key="HDLC_DPA_wrapper_hw_platform_0-target"/>
+	<item value="Auto Detect" key="HDLC_DPA_wrapper_hw_platform_0-device"/>
+	<item value="HDLC_DPA_wrapper.bit" key="HDLC_DPA_wrapper_hw_platform_0-bitFile"/>
+</section>

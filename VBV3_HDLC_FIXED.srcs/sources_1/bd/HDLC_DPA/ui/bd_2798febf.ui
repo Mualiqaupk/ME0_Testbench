@@ -1,0 +1,37 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port PS_ADC_ADDR -pg 1 -y 180 -defaultsOSRD
+preplace port s_axi_aclk -pg 1 -y 60 -defaultsOSRD
+preplace port BIST_START_0 -pg 1 -y 160 -defaultsOSRD
+preplace port m_axi_aresetn -pg 1 -y 80 -defaultsOSRD
+preplace port BIST_END_0 -pg 1 -y 190 -defaultsOSRD
+preplace port BIST_OK_0 -pg 1 -y 210 -defaultsOSRD
+preplace port aresetn_40MHz -pg 1 -y 120 -defaultsOSRD
+preplace port S_AXI -pg 1 -y 40 -defaultsOSRD
+preplace port EXT_RST -pg 1 -y 260 -defaultsOSRD
+preplace port clk_40MHz -pg 1 -y 100 -defaultsOSRD
+preplace port CALIB_ADC_ADDR -pg 1 -y 200 -defaultsOSRD
+preplace portBus data_in -pg 1 -y 170 -defaultsOSRD
+preplace portBus data_out -pg 1 -y 140 -defaultsOSRD
+preplace inst axi_clock_converter_1 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace inst TX_CONTROLLER_SCURVE_0 -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace netloc TX_CONTROLLER_SCURVE_0_EXT_RST 1 2 1 NJ
+preplace netloc CLK_40mhZ 1 0 2 30 230 NJ
+preplace netloc microblaze_0_Clk 1 0 1 NJ
+preplace netloc TX_CONTROLLER_SCURVE_0_data_out 1 2 1 NJ
+preplace netloc BIST_OK_0_1 1 0 2 NJ 210 NJ
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 0 1 NJ
+preplace netloc axi_clock_converter_1_M_AXI 1 1 1 270
+preplace netloc TX_CONTROLLER_SCURVE_0_CALIB_ADC_ADDR 1 2 1 NJ
+preplace netloc TX_CONTROLLER_SCURVE_0_PS_ADC_ADDR 1 2 1 NJ
+preplace netloc BIST_END_0_1 1 0 2 NJ 190 NJ
+preplace netloc AP_Generator_0_data_out 1 0 2 NJ 170 NJ
+preplace netloc aresetn_40MHz_1 1 0 2 20 250 NJ
+preplace netloc microblaze_0_axi_periph_M09_AXI 1 0 1 NJ
+preplace netloc TX_CONTROLLER_SCURVE_0_BIST_START 1 2 1 NJ
+levelinfo -pg 1 0 150 420 590 -top -10 -bot 310
+",
+}
+

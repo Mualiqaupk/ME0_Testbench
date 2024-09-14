@@ -1,0 +1,1518 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Sep 10 12:00:32 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 from ULB:user:Trigger_Bits_Controller:1.1 (Rev. 20) to ULB:user:Trigger_Bits_Controller:1.2 (Rev. 1)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Sep  9 13:35:23 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Aug 19 01:51:40 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Aug 18 21:38:28 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Aug 18 21:28:39 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Aug 18 15:19:50 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Aug 18 12:38:24 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 14) to (Rev. 15)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_Trigger_Bits_Controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'sot_data_out'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Aug 16 03:44:34 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 12) to (Rev. 14)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_Trigger_Bits_Controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'bitslip_bus'
+
+-Upgrade has removed port 'bitslip_sot'
+
+-Upgrade has removed port 'delay_tap_bus'
+
+-Upgrade has removed port 'dout1'
+
+-Upgrade has removed port 'dout2'
+
+-Upgrade has added port 'delay_tap_tu'
+
+-Upgrade has added port 'dout'
+
+-Upgrade has added port 'sot_bitslip'
+
+-Upgrade has added port 'sot_success'
+
+-Upgrade has added port 'tu_bitslip'
+
+-Upgrade has added port 'tu_success'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Aug 15 23:45:23 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Aug 15 15:15:46 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Aug 15 15:12:25 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Aug 15 14:33:51 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_Bits_Controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_Bits_Controller_0_0 (ULB:user:Trigger_Bits_Controller:1.1) from (Rev. 3) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Aug 13 13:17:50 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_1 from cern.ch:user:Trigger_controller:1.0 (Rev. 19) to ULB:user:Trigger_controller:1.1 (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Aug 12 00:11:45 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_1 (cern.ch:user:Trigger_controller:1.0) from (Rev. 20) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Aug 11 19:09:52 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_1 (cern.ch:user:Trigger_controller:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Aug 11 19:00:19 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_Trigger_controller_0_1 (cern.ch:user:Trigger_controller:1.0) from (Rev. 18) to (Rev. 19)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_Trigger_controller_0_1'. These changes may impact your design.
+
+
+-Upgraded port 'bitslip_bus' width 8 differs from original width 9
+
+-Upgraded port 'delay_tap_bus' width 40 differs from original width 45
+
+-Upgraded port 'trigger_data_in' width 64 differs from original width 72
+
+-Upgrade has added port 'bitslip_sot'
+
+-Upgrade has added port 'data_in_sot'
+
+-Upgrade has added port 'delay_tap_sot'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Jul 19 15:51:29 2024
+| Host         : Muhammad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 17) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Aug 12 18:59:53 2020
+| Host         : PCMICVFAT3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Aug 12 17:02:52 2020
+| Host         : PCMICVFAT3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 20) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Jun 18 19:05:54 2020
+| Host         : PCMICVFAT3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon May 27 15:29:34 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon May 27 13:12:22 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun May 26 19:51:14 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 17) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri May 24 06:57:59 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 23 23:10:31 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 23 20:50:15 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 12) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 23 18:56:27 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 23 15:50:23 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 23 12:12:41 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 9) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_Trigger_controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'dout3'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue May 21 19:46:07 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 8) to (Rev. 9)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_Trigger_controller_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'bitslip_bus' width 9 differs from original width 8
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue May 21 19:33:22 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 7) to (Rev. 8)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_Trigger_controller_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'delay_tap_bus' width 45 differs from original width 40
+
+-Upgrade has removed port 'bitslip_sot'
+
+-Upgrade has removed port 'data_in_sot'
+
+-Upgrade has removed port 'delay_tap_sot'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue May 21 19:23:04 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue May 21 18:58:54 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 5) to (Rev. 6)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_Trigger_controller_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'trigger_data_in' width 72 differs from original width 64
+
+-Upgrade has added port 'dout3'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun May 19 20:35:21 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_rx_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_rx_controller_v1_0_0_0 (cern.ch:user:rx_controller_v1_0:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun May 19 20:29:26 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun May 19 20:09:30 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 3) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun May 19 13:50:47 2019
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_Trigger_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_Trigger_controller_0_0 (cern.ch:user:Trigger_controller:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_Trigger_controller_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'dout1' width 32 differs from original width 8
+
+-Upgraded port 'dout2' width 32 differs from original width 8
+
+-Upgrade has removed port 'clk_40'
+
+-Upgrade has removed port 'dout3'
+
+-Upgrade has removed port 'dout4'
+
+-Upgrade has added port 'trigger_data_in'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Nov 21 15:15:35 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_rx_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_rx_controller_v1_0_0_0 (cern.ch:user:rx_controller_v1_0:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Nov 21 12:12:03 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_rx_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_rx_controller_v1_0_0_0 (cern.ch:user:rx_controller_v1_0:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Nov 11 12:27:36 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MB_SUSYSTEM_HDLC_FIXED_rx_controller_SCURVE_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of MB_SUSYSTEM_HDLC_FIXED_rx_controller_SCURVE_0_0 (cern.ch:user:rx_controller_SCURVE:2.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Nov 11 12:27:28 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_rx_controller_SCURVE_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of HDLC_DPA_rx_controller_SCURVE_0 (cern.ch:user:rx_controller_SCURVE:2.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Oct 23 17:04:29 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Oct 11 10:08:14 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0 (Rev. 15)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Oct 11 10:00:51 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Oct 11 09:31:30 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Oct  2 07:48:58 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Oct  1 14:46:36 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Sep 30 22:38:03 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Sep 30 22:18:03 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Sep 30 13:42:40 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Sep 30 12:02:26 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Sep 30 10:01:07 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 5) to (Rev. 6)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_dpa_controller_v1_0_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'bitTimerCounter'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Sep 30 07:45:34 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sun Sep 30 01:13:33 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Sep 29 22:55:45 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'HDLC_DPA_dpa_controller_v1_0_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of HDLC_DPA_dpa_controller_v1_0_0_0 (cern.ch:user:dpa_controller_v1_0:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'HDLC_DPA_dpa_controller_v1_0_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'state'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Sep 28 10:37:19 2018
+| Host         : pcmic141 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_dpa_rx_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_dpa_rx_controller_0_0 (cern.ch:user:rx_controller:1.0) from (Rev. 9) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Sep 28 10:37:19 2018
+| Host         : pcmic141 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_dpa_dpa_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_dpa_dpa_controller_0_0 (cern.ch:user:dpa_controller:1.0) from (Rev. 3) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Sep 28 10:37:19 2018
+| Host         : pcmic141 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_dpa_TX_CONTROLLER_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_dpa_TX_CONTROLLER_0_0 (cern.ch:user:TX_CONTROLLER:1.0) from (Rev. 25) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep 27 18:26:52 2018
+| Host         : pcmic141 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_rx_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_rx_controller_0_0 (cern.ch:user:rx_controller:1.0) from (Rev. 9) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep 27 18:26:52 2018
+| Host         : pcmic141 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_dpa_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_dpa_controller_0_0 (cern.ch:user:dpa_controller:1.0) from (Rev. 3) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Sep 27 18:26:52 2018
+| Host         : pcmic141 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_TX_CONTROLLER_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_TX_CONTROLLER_0_0 (cern.ch:user:TX_CONTROLLER:1.0) from (Rev. 25) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Aug 31 12:04:47 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_dpa_rx_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_dpa_rx_controller_0_0 (cern.ch:user:rx_controller:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Aug 31 12:04:47 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_dpa_TX_CONTROLLER_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_dpa_TX_CONTROLLER_0_0 (cern.ch:user:TX_CONTROLLER:1.0) from (Rev. 22) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Aug 31 12:04:44 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_rx_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_rx_controller_0_0 (cern.ch:user:rx_controller:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Aug 31 12:04:44 2018
+| Host         : PCMICVFAT3 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_subsystem_TX_CONTROLLER_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_subsystem_TX_CONTROLLER_0_0 (cern.ch:user:TX_CONTROLLER:1.0) from (Rev. 22) to (Rev. 25)
+

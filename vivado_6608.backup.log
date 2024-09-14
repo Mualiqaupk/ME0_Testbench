@@ -1,0 +1,522 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Sep 27 18:39:25 2018
+# Process ID: 6608
+# Current directory: C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18588 C:\Xilinx_Projects\Counter\VBV3_HDLC_FIXED\VBV3_HDLC_FIXED.xpr
+# Log file: C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/vivado.log
+# Journal file: C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.xpr
+INFO: [Project 1-313] Project file moved from 'G:/Projects/vfat3verifboard/VBV3_HDLC_FIXED' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Xilinx_Projects/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.srcs/sources_1/bd/mb_subsystem/ip/mb_subsystem_clk_wiz_0_0/mb_subsystem_clk_wiz_0_0.upgrade_log', nor could it be found using path 'G:/Projects/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.srcs/sources_1/bd/mb_subsystem/ip/mb_subsystem_clk_wiz_0_0/mb_subsystem_clk_wiz_0_0.upgrade_log'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Xilinx_Projects/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/echo_server/Debug/echo_server.elf', nor could it be found using path 'G:/Projects/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/echo_server/Debug/echo_server.elf'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Xilinx_Projects/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/hello_world/Debug/hello_world.elf', nor could it be found using path 'G:/Projects/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/hello_world/Debug/hello_world.elf'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Xilinx_Projects/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/socket_apps/Debug/socket_apps.elf', nor could it be found using path 'G:/Projects/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/socket_apps/Debug/socket_apps.elf'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'HDLC_DPA.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+HDLC_DPA_dpa_controller_v2_0_0_0
+HDLC_DPA_SC_try_v1_0_0_0
+HDLC_DPA_TX_CONTROLLER_SCURVE_0_0
+HDLC_DPA_rx_controller_SCURVE_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'MB_SUSYSTEM_HDLC_FIXED.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+MB_SUSYSTEM_HDLC_FIXED_dpa_controller_v2_0_0_0
+MB_SUSYSTEM_HDLC_FIXED_SC_try_v1_0_0_0
+MB_SUSYSTEM_HDLC_FIXED_TX_CONTROLLER_SCURVE_0_0
+MB_SUSYSTEM_HDLC_FIXED_rx_controller_SCURVE_0_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'mb_subsystem_dpa.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+mb_subsystem_dpa_rx_controller_0_0
+mb_subsystem_dpa_dpa_controller_0_0
+mb_subsystem_dpa_TX_CONTROLLER_0_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'test_v1_0_bfm_2.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+test_v1_0_bfm_2_test_0_0
+
+open_project: Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1159.199 ; gain = 449.000
+update_compile_order -fileset sources_1
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_0
+Adding cell -- xilinx.com:ip:axi_ethernet:7.1 - axi_ethernet_0
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_ethernet_0_dma
+Adding cell -- xilinx.com:ip:axi_fifo_mm_s:4.1 - FIFO
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - success
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - bit_slip
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_1
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- cern.ch:user:dpa_controller_v2_0:2.0 - dpa_controller_v2_0_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding cell -- xilinx.com:module_ref:S_to_diff:1.0 - S_to_diff_1
+Adding cell -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/clk_out1(clk) and /S_to_diff_1/sig_in(undef)
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - TX_SERIALIZER
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding cell -- xilinx.com:module_ref:AP_Generator:1.0 - AP_Generator_0
+Adding cell -- xilinx.com:module_ref:inverse_reverse:1.0 - inverse_reverse_TX
+Adding cell -- xilinx.com:ip:axis_clock_converter:1.1 - axis_clock_converter_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- cern.ch:user:SC_try_v1_0:1.0 - SC_try_v1_0_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - clock_converter_SC_TRY
+Adding cell -- xilinx.com:module_ref:S_to_diff:1.0 - S_to_diff_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /TXD/clk_40(clk) and /TXD/TX_SERIALIZER/clk_div_in(undef)
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_1
+Adding cell -- cern.ch:user:TX_CONTROLLER_SCURVE:2.0 - TX_CONTROLLER_SCURVE_0
+Adding cell -- xilinx.com:module_ref:inverse_reverse:1.0 - inverse_reverse
+Adding cell -- cern.ch:user:rx_controller_SCURVE:2.0 - rx_controller_SCURVE
+Adding cell -- xilinx.com:module_ref:F1_F2_FILTER:1.0 - F1_F2_FILTER
+Adding cell -- xilinx.com:module_ref:diff_to_diff:1.0 - diff_to_diff
+Adding cell -- xilinx.com:module_ref:bitslip_Generator:1.0 - bitslip_Generator
+Adding cell -- xilinx.com:ip:axis_clock_converter:1.1 - axis_clock_converter_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - PRE_2
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - POST_2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /RXD/Slave_IDELAY/clk_in(clk) and /RXD/Slave_IDELAY/PRE_2/delay_clk(undef)
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - PRE_1
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - POST_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /RXD/Master_IDELAY/clk_in(clk) and /RXD/Master_IDELAY/PRE_1/delay_clk(undef)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s04_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s04_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s03_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s03_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s02_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s02_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s01_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s01_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s00_data_fifo
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Successfully read diagram <HDLC_DPA> from BD file <C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd>
+WARNING: [BD 41-1731] Type mismatch between connected pins: /c_counter_binary_0/THRESH0(data) and /c_shift_ram_0/CE(ce)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /phy_rst_n(rst) and /c_shift_ram_0/Q(data)
+open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1328.070 ; gain = 78.086
+set_property  ip_repo_paths  {c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo G:/Projects/vfat3verifboard/VBV3_HDLC_FIXED/repo} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/Projects/vfat3verifboard/VBV3_HDLC_FIXED/repo'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'cern.ch:user:TX_CONTROLLER:1.0'. The one found in IP location 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/AXI_TX_CONTROLLER_1.0' will take precedence over the same IP in location g:/Projects/vfat3verifboard/VBV3_HDLC_FIXED/repo/AXI_TX_CONTROLLER_1.0
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'cern.ch:user:dpa_controller:1.0'. The one found in IP location 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/dpa_controller_1.0' will take precedence over the same IP in location g:/Projects/vfat3verifboard/VBV3_HDLC_FIXED/repo/dpa_controller_1.0
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'cern.ch:user:HDLC_controller:1.0'. The one found in IP location 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/HDLC_controller_1.0' will take precedence over the same IP in location g:/Projects/vfat3verifboard/VBV3_HDLC_FIXED/repo/HDLC_controller_1.0
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'cern.ch:user:rx_controller:1.0'. The one found in IP location 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/rx_controller_1.0' will take precedence over the same IP in location g:/Projects/vfat3verifboard/VBV3_HDLC_FIXED/repo/rx_controller_1.0
+set_property  ip_repo_paths  c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {mb_subsystem_dpa_dpa_controller_0_0 mb_subsystem_dpa_rx_controller_0_0 mb_subsystem_dpa_TX_CONTROLLER_0_0}] -log ip_upgrade.log
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- xilinx.com:module_ref:S_to_diff:1.0 - S_to_diff_0
+Adding cell -- xilinx.com:module_ref:S_to_diff:1.0 - S_to_diff_1
+Adding cell -- xilinx.com:module_ref:inverse_reverse:1.0 - inverse_reverse_RX
+Adding cell -- xilinx.com:module_ref:F1_F2_FILTER:1.0 - F1_F2_FILTER_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding cell -- xilinx.com:module_ref:AP_Generator:1.0 - AP_Generator_0
+Adding cell -- xilinx.com:module_ref:inverse_reverse:1.0 - inverse_reverse_TX
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - RX_deSERIALIZER
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_0
+Adding cell -- xilinx.com:ip:axi_ethernet:7.1 - axi_ethernet_0
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_ethernet_0_dma
+Adding cell -- xilinx.com:ip:axi_fifo_mm_s:4.1 - FIFO
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - success
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - bit_slip
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:axis_clock_converter:1.1 - axis_clock_converter_0
+Adding cell -- xilinx.com:ip:axis_clock_converter:1.1 - axis_clock_converter_1
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_1
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_1
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - TX_SERIALIZER
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding cell -- xilinx.com:module_ref:bitslip_Generator:1.0 - bitslip_Generator_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_1
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding cell -- xilinx.com:module_ref:diff_to_diff:1.0 - diff_to_diff_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding cell -- cern.ch:user:dpa_controller:1.0 - dpa_controller_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- cern.ch:user:rx_controller:1.0 - rx_controller_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/clk_out3(clk) and /F1_F2_FILTER_0/clk40(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/clk_out3(clk) and /RX_deSERIALIZER/clk_div_in(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/clk_out3(clk) and /TX_SERIALIZER/clk_div_in(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/clk_out3(clk) and /bitslip_Generator_0/clk_40MHz(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/clk_out2(clk) and /S_to_diff_1/sig_in(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_0/clk_out2(clk) and /RX_deSERIALIZER/ref_clock(undef)
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_1
+Adding cell -- cern.ch:user:TX_CONTROLLER:1.0 - TX_CONTROLLER_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s04_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s04_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s03_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s03_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s02_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s02_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s01_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s01_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s00_data_fifo
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Successfully read diagram <mb_subsystem_dpa> from BD file <C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd>
+WARNING: [BD 41-1731] Type mismatch between connected pins: /c_counter_binary_0/THRESH0(data) and /c_shift_ram_0/CE(ce)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /phy_rst_n(rst) and /c_shift_ram_0/Q(data)
+Upgrading 'C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd'
+INFO: [IP_Flow 19-3422] Upgraded mb_subsystem_dpa_TX_CONTROLLER_0_0 (TX_CONTROLLER 1.0) from revision 25 to revision 24
+INFO: [IP_Flow 19-3422] Upgraded mb_subsystem_dpa_dpa_controller_0_0 (dpa_controller_v1.0 1.0) from revision 3 to revision 5
+INFO: [IP_Flow 19-3422] Upgraded mb_subsystem_dpa_rx_controller_0_0 (rx_controller_v1.0 1.0) from revision 9 to revision 8
+Wrote  : <C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1550.285 ; gain = 22.277
+export_ip_user_files -of_objects [get_ips {mb_subsystem_dpa_dpa_controller_0_0 mb_subsystem_dpa_rx_controller_0_0 mb_subsystem_dpa_TX_CONTROLLER_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd]
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /c_shift_ram_0 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+CRITICAL WARNING: [BD 41-1343] Reset pin /axi_clock_converter_0/m_axi_aresetn (associated clock /axi_clock_converter_0/m_axi_aclk) is connected to reset source /proc_sys_reset_1/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /clk_wiz_1/clk_out3.
+CRITICAL WARNING: [BD 41-1343] Reset pin /bit_slip/s_axi_aresetn (associated clock /bit_slip/s_axi_aclk) is connected to reset source /proc_sys_reset_1/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /clk_wiz_1/clk_out3.
+CRITICAL WARNING: [BD 41-1343] Reset pin /axis_clock_converter_0/s_axis_aresetn (associated clock /axis_clock_converter_0/s_axis_aclk) is connected to reset source /proc_sys_reset_1/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /clk_wiz_1/clk_out3.
+CRITICAL WARNING: [BD 41-1343] Reset pin /axis_clock_converter_1/m_axis_aresetn (associated clock /axis_clock_converter_1/m_axis_aclk) is connected to reset source /proc_sys_reset_1/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /clk_wiz_1/clk_out3.
+CRITICAL WARNING: [BD 41-1343] Reset pin /tx_controller_hier/axi_clock_converter_1/m_axi_aresetn (associated clock /tx_controller_hier/axi_clock_converter_1/m_axi_aclk) is connected to reset source /proc_sys_reset_1/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /clk_wiz_1/clk_out3.
+CRITICAL WARNING: [BD 41-1343] Reset pin /tx_controller_hier/TX_CONTROLLER_0/s00_axi_aresetn (associated clock /tx_controller_hier/TX_CONTROLLER_0/s00_axi_aclk) is connected to reset source /proc_sys_reset_1/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /clk_wiz_1/clk_out3.
+CRITICAL WARNING: [BD 41-1343] Reset pin /axi_clock_converter_1/m_axi_aresetn (associated clock /axi_clock_converter_1/m_axi_aclk) is connected to reset source /proc_sys_reset_1/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /clk_wiz_1/clk_out3.
+CRITICAL WARNING: [BD 41-1343] Reset pin /rx_controller_0/s00_axi_aresetn (associated clock /rx_controller_0/s00_axi_aclk) is connected to reset source /proc_sys_reset_1/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /clk_wiz_1/clk_out3.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+WARNING: [BD 41-926] Following properties on interface pin /axi_ethernet_0/s_axi have been updated from connected ip. They may not be synchronized with cell properties. You can set property on interface pin directly to confirm the value and resolve the warning.
+	SUPPORTS_NARROW_BURST=0
+	MAX_BURST_LENGTH=1
+
+WARNING: [BD 41-927] Following properties on pin /inverse_reverse_RX/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_1_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /AP_Generator_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_1_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /inverse_reverse_TX/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_1_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/s_axi_lite_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=mb_subsystem_dpa_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/axis_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=mb_subsystem_dpa_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/gtx_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/ref_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=mb_subsystem_dpa_mig_7series_0_0_ui_clk 
+Wrote  : <C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd> 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(16) - Only lower order bits will be connected.
+VHDL Output written to : C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/synth/mb_subsystem_dpa.v
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(16) - Only lower order bits will be connected.
+VHDL Output written to : C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/sim/mb_subsystem_dpa.v
+VHDL Output written to : C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/hdl/mb_subsystem_dpa_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block S_to_diff_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block S_to_diff_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block inverse_reverse_RX .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block F1_F2_FILTER_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AP_Generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block inverse_reverse_TX .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RX_deSERIALIZER .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_clock_converter_0 .
+Exporting to file c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/ip/mb_subsystem_dpa_axi_ethernet_0_0/bd_0/hw_handoff/mb_subsystem_dpa_axi_ethernet_0_0.hwh
+Generated Block Design Tcl file c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/ip/mb_subsystem_dpa_axi_ethernet_0_0/bd_0/hw_handoff/mb_subsystem_dpa_axi_ethernet_0_0_bd.tcl
+Generated Hardware Definition File c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/ip/mb_subsystem_dpa_axi_ethernet_0_0/bd_0/synth/mb_subsystem_dpa_axi_ethernet_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block success .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block bit_slip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_clock_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TX_SERIALIZER .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block bitslip_Generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_controller_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block diff_to_diff_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dpa_controller_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_controller_hier/axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_controller_hier/TX_CONTROLLER_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/ip/mb_subsystem_dpa_auto_pc_0/mb_subsystem_dpa_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m08_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/m01_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/m00_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/ip/mb_subsystem_dpa_s04_data_fifo_0/mb_subsystem_dpa_s04_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/ip/mb_subsystem_dpa_s03_data_fifo_0/mb_subsystem_dpa_s03_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/ip/mb_subsystem_dpa_s02_data_fifo_0/mb_subsystem_dpa_s02_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/ip/mb_subsystem_dpa_s01_data_fifo_0/mb_subsystem_dpa_s01_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/ip/mb_subsystem_dpa_s00_data_fifo_0/mb_subsystem_dpa_s00_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_data_fifo .
+Exporting to file C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/hw_handoff/mb_subsystem_dpa.hwh
+Generated Block Design Tcl file C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/hw_handoff/mb_subsystem_dpa_bd.tcl
+Generated Hardware Definition File C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/synth/mb_subsystem_dpa.hwdef
+generate_target: Time (s): cpu = 00:00:36 ; elapsed = 00:00:56 . Memory (MB): peak = 1732.215 ; gain = 181.930
+export_ip_user_files -of_objects [get_files C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd] -directory C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.ip_user_files/sim_scripts -ip_user_files_dir C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.ip_user_files -ipstatic_source_dir C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.cache/compile_simlib/modelsim} {questa=C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.cache/compile_simlib/questa} {riviera=C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.cache/compile_simlib/riviera} {activehdl=C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+ipx::infer_core -as_library true C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/AXI_TX_CONTROLLER_1.0
+ipx::edit_ip_in_project -upgrade true -name edit_ip_project -directory C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.tmp c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/AXI_TX_CONTROLLER_1.0/component.xml
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst_n' as interface 'rst_n'.
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1746.855 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1746.855 ; gain = 0.000
+ipx::current_core c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/AXI_TX_CONTROLLER_1.0/component.xml
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    get_if_design_assist_can_be_applied Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    get_if_design_assist_can_be_applied Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    get_if_design_assist_can_be_applied Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    get_if_design_assist_can_be_applied Line 3
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 28 10:43:01 2018...

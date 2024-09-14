@@ -1,0 +1,248 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Sep 28 10:48:09 2018
+# Process ID: 11888
+# Current directory: C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16820 C:\Xilinx_Projects\Counter\VBV3_HDLC_FIXED\VBV3_HDLC_FIXED.xpr
+# Log file: C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/vivado.log
+# Journal file: C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.xpr
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+report_ip_status -name ip_status 
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+show_objects -name find_1 [get_sites -filter { SITE_TYPE == "IDELAYCTRL" } ]
+synth_design -rtl -name rtl_1
+show_objects -name find_1 [get_sites -filter { SITE_TYPE == "IDELAYCTRL" } ] 
+show_objects -name find_1 [get_sites -filter { SITE_TYPE == "IDELAYCTRL" } ]
+show_objects -name find_1 [get_cells -hierarchical -filter { PRIMITIVE_TYPE == IO.IDELAYCTRL.IDELAYCTRL } ]
+open_run synth_1 -name synth_1
+report_drc -name drc_1 -ruledecks {default}
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+set cells [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ IO.iodelay.* || PRIMITIVE_TYPE =~ IO.idelayctrl.* } ]
+foreach i $cells {puts "GROUP: [get_property IODELAY_GROUP [get_cells $i]] PRIMITIVE: [get_property REF_NAME [get_cells $i]] BANK: [get_iobanks -of [get_clock_regions -of [get_sites -of [get_cells $i]]]] NAME: $i"}
+set_property IS_LOC_FIXED 0 [get_cells {mb_subsystem_i/mig_7series_0/u_mb_subsystem_mig_7series_0_0_mig/u_iodelay_ctrl/u_idelayctrl_200}]
+set_property LOC {} [get_cells {mb_subsystem_i/mig_7series_0/u_mb_subsystem_mig_7series_0_0_mig/u_iodelay_ctrl/u_idelayctrl_200}]
+set_property IS_LOC_FIXED 0 [get_cells {HDLC_DPA_i/mig_7series_0/u_HDLC_DPA_mig_7series_0_0_mig/u_iodelay_ctrl/u_idelayctrl_200}]
+set_property LOC {} [get_cells {HDLC_DPA_i/mig_7series_0/u_HDLC_DPA_mig_7series_0_0_mig/u_iodelay_ctrl/u_idelayctrl_200}]
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+report_drc -name drc_1 -ruledecks {default}
+show_objects -name find_1 [get_sites -filter { SITE_TYPE == "IDELAYCTRL" } ]
+reset_run synth_1
+save_constraints -force
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+set cells [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ IO.iodelay.* || PRIMITIVE_TYPE =~ IO.idelayctrl.* } ]
+foreach i $cells {puts "GROUP: [get_property IODELAY_GROUP [get_cells $i]] PRIMITIVE: [get_property REF_NAME [get_cells $i]] BANK: [get_iobanks -of [get_clock_regions -of [get_sites -of [get_cells $i]]]] NAME: $i"}
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+set cells [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ IO.iodelay.* || PRIMITIVE_TYPE =~ IO.idelayctrl.* } ]
+foreach i $cells {puts "GROUP: [get_property IODELAY_GROUP [get_cells $i]] PRIMITIVE: [get_property REF_NAME [get_cells $i]] BANK: [get_iobanks -of [get_clock_regions -of [get_sites -of [get_cells $i]]]] NAME: $i"}
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+report_drc -name drc_1 -ruledecks {default}
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+place_ports rxclk_p Y30
+place_ports {vfat3_txd_p[0]} AC29
+save_constraints -force
+close_design
+refresh_design
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+ipx::infer_core -vendor cern.ch -library user -taxonomy /UserIP C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/dpa_controller_1.0
+ipx::edit_ip_in_project -upgrade true -name edit_ip_project -directory C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.tmp c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/dpa_controller_1.0/component.xml
+ipx::current_core c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/dpa_controller_1.0/component.xml
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes -copy_to c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/dpa_controller_1.0/src C:/Xilinx_Projects/Counter/vbv3_hw_flash_dpa/vbv3_hw_flash_dpa.srcs/sources_1/new/DPA_FSM.v
+add_files -norecurse -copy_to c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/dpa_controller_1.0/src C:/Xilinx_Projects/Counter/vbv3_hw_flash_dpa/vbv3_hw_flash_dpa.srcs/sources_1/new/DPA_FSM.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes ports [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project VBV3_HDLC_FIXED
+open_run synth_1 -name synth_1
+place_ports {vfat3_txd_p[0]} AC29
+place_ports rxclk_p Y30
+save_constraints
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+current_project edit_ip_project
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::merge_project_changes files [ipx::current_core]
+current_project VBV3_HDLC_FIXED
+close_design
+open_run impl_1
+current_project edit_ip_project
+current_project VBV3_HDLC_FIXED
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_project edit_ip_project
+ipx::merge_project_changes files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+report_ip_status -name ip_status 
+startgroup
+create_bd_cell -type ip -vlnv cern.ch:user:dpa_controller_v1_0:1.0 dpa_controller_v1_0_0
+endgroup
+delete_bd_objs [get_bd_intf_nets microblaze_0_axi_periph_M13_AXI] [get_bd_nets in_delay_tap_in_1] [get_bd_cells dpa_controller_v2_0_0]
+report_ip_status -name ip_status 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_clock_converter:2.1 axi_clock_converter_1
+endgroup
+group_bd_cells dpa_hier [get_bd_cells axi_clock_converter_1] [get_bd_cells dpa_controller_v1_0_0]
+set_property location {4 1551 1985} [get_bd_cells dpa_hier]
+move_bd_cells [get_bd_cells RXD] [get_bd_cells dpa_hier]
+move_bd_cells [get_bd_cells /] [get_bd_cells RXD/dpa_hier]
+report_ip_status -name ip_status 
+connect_bd_intf_net [get_bd_intf_pins dpa_hier/dpa_controller_v1_0_0/s00_axi] [get_bd_intf_pins dpa_hier/axi_clock_converter_1/M_AXI]
+regenerate_bd_layout
+connect_bd_intf_net [get_bd_intf_pins dpa_hier/axi_clock_converter_1/S_AXI] -boundary_type upper [get_bd_intf_pins microblaze_0_axi_periph/M13_AXI]
+connect_bd_net [get_bd_pins dpa_hier/dpa_controller_v1_0_0/s00_axi_aresetn] [get_bd_pins proc_sys_reset_0/interconnect_aresetn]
+connect_bd_net [get_bd_pins dpa_hier/s00_axi_aresetn] [get_bd_pins dpa_hier/axi_clock_converter_1/m_axi_aresetn]
+connect_bd_net [get_bd_pins dpa_hier/dpa_controller_v1_0_0/s00_axi_aclk] [get_bd_pins mig_7series_0/ui_addn_clk_2]
+connect_bd_net [get_bd_pins dpa_hier/s00_axi_aclk] [get_bd_pins dpa_hier/axi_clock_converter_1/m_axi_aclk]
+connect_bd_net [get_bd_pins dpa_hier/axi_clock_converter_1/s_axi_aresetn] [get_bd_pins proc_sys_reset_1/peripheral_aresetn]
+connect_bd_net [get_bd_pins dpa_hier/axi_clock_converter_1/s_axi_aclk] [get_bd_pins mig_7series_0/ui_clk]
+regenerate_bd_layout
+set_property location {3.5 1464 2393} [get_bd_cells dpa_hier]
+delete_bd_objs [get_bd_nets RXD/Master_IDELAY/dpa_controller_0_mdelay]
+delete_bd_objs [get_bd_nets RXD/dpa_controller_0_mdelay] [get_bd_nets RXD/Slave_IDELAY/dpa_controller_0_mdelay]
+delete_bd_objs [get_bd_pins RXD/Master_IDELAY/in_delay_tap_in]
+connect_bd_net [get_bd_pins dpa_hier/dpa_controller_v1_0_0/mtap_pre] [get_bd_pins RXD/Master_IDELAY/PRE_1/in_delay_tap_in]
+connect_bd_net [get_bd_pins dpa_hier/dpa_controller_v1_0_0/mtap_post] [get_bd_pins RXD/Master_IDELAY/POST_1/in_delay_tap_in]
+connect_bd_net [get_bd_pins dpa_hier/dpa_controller_v1_0_0/stap_pre] [get_bd_pins RXD/Slave_IDELAY/PRE_2/in_delay_tap_in]
+connect_bd_net [get_bd_pins dpa_hier/dpa_controller_v1_0_0/stap_post] [get_bd_pins RXD/Slave_IDELAY/POST_2/in_delay_tap_in]
+startgroup
+set_property -dict [list CONFIG.C_PROBE3_WIDTH {6} CONFIG.C_PROBE2_WIDTH {6} CONFIG.C_NUM_OF_PROBES {4}] [get_bd_cells ila_0]
+endgroup
+connect_bd_net [get_bd_pins ila_0/probe2] [get_bd_pins dpa_hier/dpa_controller_v1_0_0/M_delay_tap]
+connect_bd_net [get_bd_pins dpa_hier/dpa_controller_v1_0_0/S_delay_tap] [get_bd_pins ila_0/probe3]
+connect_bd_net [get_bd_pins dpa_hier/dpa_controller_v1_0_0/M_data] [get_bd_pins RXD/Master_IDELAY/data_in_to_device]
+connect_bd_net [get_bd_pins dpa_hier/dpa_controller_v1_0_0/S_data] [get_bd_pins RXD/Slave_IDELAY/data_in_to_device]
+regenerate_bd_layout
+assign_bd_address
+regenerate_bd_layout -routing
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+delete_bd_objs [get_bd_pins RXD/Slave_IDELAY/in_delay_tap_in]
+report_ip_status -name ip_status 
+copy_bd_objs /  [get_bd_cells {RXD/bitslip_Generator}]
+move_bd_cells [get_bd_cells RXD] [get_bd_cells bitslip_Generator]
+set_property name bitslip_Generator_Master [get_bd_cells RXD/bitslip_Generator]
+set_property name bitslip_Generator_Slave [get_bd_cells RXD/bitslip_Generator_1]
+connect_bd_net [get_bd_pins RXD/bitslip_Generator_Slave/bitslip] [get_bd_pins RXD/Slave_IDELAY/POST_2/bitslip]
+move_bd_cells [get_bd_cells /] [get_bd_cells RXD/bitslip_Generator_Slave]
+undo
+connect_bd_net [get_bd_pins RXD/clk40] [get_bd_pins RXD/bitslip_Generator_Slave/clk_40MHz]
+connect_bd_net [get_bd_pins RXD/s00_axi_aresetn_40MHz] [get_bd_pins RXD/bitslip_Generator_Slave/rst_n]
+connect_bd_net [get_bd_pins RXD/bitslip_ena] [get_bd_pins RXD/bitslip_Generator_Slave/bitslip_ena]
+copy_bd_objs /  [get_bd_cells {RXD/inverse_reverse}]
+move_bd_cells [get_bd_cells RXD] [get_bd_cells inverse_reverse]
+move_bd_cells [get_bd_cells /] [get_bd_cells RXD/inverse_reverse_1]
+move_bd_cells [get_bd_cells RXD] [get_bd_cells inverse_reverse_1]
+connect_bd_net [get_bd_pins RXD/inverse_reverse_1/data_out] [get_bd_pins RXD/bitslip_Generator_Slave/data_in]
+regenerate_bd_layout
+connect_bd_net [get_bd_pins RXD/inverse_reverse_1/data_in] [get_bd_pins RXD/Slave_IDELAY/data_in_to_device]
+connect_bd_net [get_bd_pins RXD/clk40] [get_bd_pins RXD/inverse_reverse_1/clk]
+connect_bd_net [get_bd_pins RXD/inverse_reverse_1/invert] [get_bd_pins RXD/inverse_reverse_1/reverse]
+undo
+connect_bd_net [get_bd_pins RXD/s00_axi_aresetn_40MHz] [get_bd_pins RXD/inverse_reverse_1/rst_n]
+connect_bd_net [get_bd_pins RXD/reverse] [get_bd_pins RXD/inverse_reverse_1/reverse]
+connect_bd_net [get_bd_pins RXD/invert] [get_bd_pins RXD/inverse_reverse_1/invert]
+set_property name inverse_reverse_slave [get_bd_cells RXD/inverse_reverse_1]
+set_property name inverse_reverse_master [get_bd_cells RXD/inverse_reverse]
+regenerate_bd_layout
+regenerate_bd_layout -routing
+regenerate_bd_layout
+copy_bd_objs /  [get_bd_cells {success}]
+set_property name success_master [get_bd_cells success]
+set_property name success_slave [get_bd_cells success1]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Periph)" intc_ip "/microblaze_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins success_slave/S_AXI]
+endgroup
+connect_bd_net [get_bd_pins success_slave/gpio_io_i] [get_bd_pins RXD/bitslip_Generator_Slave/success]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Periph)" intc_ip "/microblaze_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins success_slave/S_AXI]
+startgroup
+set_property -dict [list CONFIG.NUM_MI {16}] [get_bd_cells microblaze_0_axi_periph]
+endgroup
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins microblaze_0_axi_periph/M15_AXI] [get_bd_intf_pins success_slave/S_AXI]
+connect_bd_net [get_bd_pins success_slave/s_axi_aclk] [get_bd_pins mig_7series_0/ui_clk]
+connect_bd_net [get_bd_pins success_slave/s_axi_aresetn] [get_bd_pins proc_sys_reset_1/peripheral_aresetn]
+report_ip_status -name ip_status 
+connect_bd_net [get_bd_pins microblaze_0_axi_periph/M15_ACLK] [get_bd_pins mig_7series_0/ui_clk]
+connect_bd_net [get_bd_pins microblaze_0_axi_periph/M15_ARESETN] [get_bd_pins proc_sys_reset_1/peripheral_aresetn]
+assign_bd_address
+set_property location {-44 871} [get_bd_ports RXD_N]
+regenerate_bd_layout -routing
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+disconnect_bd_net /clk_320MHz [get_bd_pins ila_0/clk]
+delete_bd_objs [get_bd_pins RXD/in_delay_tap_in]
+set_property location {1 240 1357} [get_bd_cells ila_0]
+set_property location {3.5 1574 1940} [get_bd_cells ila_0]
+set_property location {4 1606 789} [get_bd_cells ila_0]
+set_property location {4 1622 218} [get_bd_cells ila_0]
+connect_bd_net [get_bd_pins ila_0/clk] [get_bd_pins mig_7series_0/ui_addn_clk_2]
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout -routing
+save_bd_design
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+set cells [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ IO.iodelay.* || PRIMITIVE_TYPE =~ IO.idelayctrl.* } ]
+foreach i $cells {puts "GROUP: [get_property IODELAY_GROUP [get_cells $i]] PRIMITIVE: [get_property REF_NAME [get_cells $i]] BANK: [get_iobanks -of [get_clock_regions -of [get_sites -of [get_cells $i]]]] NAME: $i"}
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

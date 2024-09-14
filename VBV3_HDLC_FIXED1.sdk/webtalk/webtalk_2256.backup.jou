@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# 
+# Start of session at: Mon Aug 19 11:42:42 2024
+# Process ID: 2256
+# Current directory: D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/webtalk/webtalk.log
+# Journal file: D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

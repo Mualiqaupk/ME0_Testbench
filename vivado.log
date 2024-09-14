@@ -1,0 +1,538 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May 20 15:28:10 2019
+# Process ID: 10928
+# Current directory: H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1752 H:\vfat3_firmware_fast\TRIGGER\VBV3_HDLC_FIXED\VBV3_HDLC_FIXED.xpr
+# Log file: H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/vivado.log
+# Journal file: H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.xpr
+INFO: [Project 1-313] Project file moved from 'H:/vfat3_firmware_fast/VBV3_HDLC_FIXED' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'H:/vfat3_firmware_fast/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.srcs/sources_1/bd/mb_subsystem/ip/mb_subsystem_clk_wiz_0_0/mb_subsystem_clk_wiz_0_0.upgrade_log', nor could it be found using path 'H:/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.srcs/sources_1/bd/mb_subsystem/ip/mb_subsystem_clk_wiz_0_0/mb_subsystem_clk_wiz_0_0.upgrade_log'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'H:/vfat3_firmware_fast/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/echo_server/Debug/echo_server.elf', nor could it be found using path 'H:/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/echo_server/Debug/echo_server.elf'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'H:/vfat3_firmware_fast/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/hello_world/Debug/hello_world.elf', nor could it be found using path 'H:/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/hello_world/Debug/hello_world.elf'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'H:/vfat3_firmware_fast/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/socket_apps/Debug/socket_apps.elf', nor could it be found using path 'H:/XAPP1026/KC705_AxiEth_150MHZ_64KB/vfat3_firmware/HW/project_2.sdk/socket_apps/Debug/socket_apps.elf'.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'H:/vfat3_firmware_fast/TRIGGER/ip_repo/Trigger_controller_1.0'; using path 'H:/vfat3_firmware_fast/ip_repo/Trigger_controller_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'H:/vfat3_firmware_fast/TRIGGER/ip_repo/trigger_formatter_1.0'; using path 'H:/vfat3_firmware_fast/ip_repo/trigger_formatter_1.0' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'H:/vfat3_firmware_fast/TRIGGER/ip_repo/packet_formatter_1.0'; using path 'H:/vfat3_firmware_fast/ip_repo/packet_formatter_1.0' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/vfat3_firmware_fast/ip_repo/Trigger_controller_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/vfat3_firmware_fast/ip_repo/trigger_formatter_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/vfat3_firmware_fast/ip_repo/packet_formatter_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'test_v1_0_bfm_2.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+test_v1_0_bfm_2_test_0_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'mb_subsystem.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+mb_subsystem_TX_CONTROLLER_0_0
+mb_subsystem_rx_controller_0_0
+mb_subsystem_dpa_controller_0_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'mb_subsystem_dpa.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+mb_subsystem_dpa_rx_controller_0_0
+mb_subsystem_dpa_dpa_controller_0_0
+mb_subsystem_dpa_TX_CONTROLLER_0_0
+
+WARNING: [IP_Flow 19-3664] IP 'MB_SUSYSTEM_HDLC_FIXED_axis_clock_converter_0_0' generated file not found 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/MB_SUSYSTEM_HDLC_FIXED/ip/MB_SUSYSTEM_HDLC_FIXED_axis_clock_converter_0_0/MB_SUSYSTEM_HDLC_FIXED_axis_clock_converter_0_0/MB_SUSYSTEM_HDLC_FIXED_axis_clock_converter_0_0_clocks.xdc'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MB_SUSYSTEM_HDLC_FIXED_axis_clock_converter_1_0' generated file not found 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/MB_SUSYSTEM_HDLC_FIXED/ip/MB_SUSYSTEM_HDLC_FIXED_axis_clock_converter_1_0/MB_SUSYSTEM_HDLC_FIXED_axis_clock_converter_1_0/MB_SUSYSTEM_HDLC_FIXED_axis_clock_converter_1_0_clocks.xdc'. Please regenerate to continue.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'MB_SUSYSTEM_HDLC_FIXED.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+MB_SUSYSTEM_HDLC_FIXED_dpa_controller_v2_0_0_0
+MB_SUSYSTEM_HDLC_FIXED_rx_controller_SCURVE_0_0
+
+open_project: Time (s): cpu = 00:00:58 ; elapsed = 00:00:58 . Memory (MB): peak = 1086.297 ; gain = 421.828
+update_compile_order -fileset sources_1
+open_bd_design {H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_0
+Adding cell -- xilinx.com:ip:axi_ethernet:7.1 - axi_ethernet_0
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_ethernet_0_dma
+Adding cell -- xilinx.com:ip:axi_fifo_mm_s:4.1 - FIFO
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - success_master
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - bit_slip
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_1
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding cell -- xilinx.com:module_ref:S_to_diff:1.0 - S_to_diff_1
+Adding cell -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - success_slave
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_1/clk_out1(clk) and /S_to_diff_1/sig_in(undef)
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - TU_SOT
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - TU_TXD_BUS
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_1
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding cell -- cern.ch:user:Trigger_controller:1.0 - Trigger_controller_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_1
+Adding cell -- cern.ch:user:dpa_controller_v1_0:1.0 - dpa_controller_v1_0_0
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - TX_SERIALIZER
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding cell -- xilinx.com:module_ref:AP_Generator:1.0 - AP_Generator_0
+Adding cell -- xilinx.com:module_ref:inverse_reverse:1.0 - inverse_reverse_TX
+Adding cell -- xilinx.com:ip:axis_clock_converter:1.1 - axis_clock_converter_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- cern.ch:user:SC_try_v1_0:1.0 - SC_try_v1_0_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - clock_converter_SC_TRY
+Adding cell -- xilinx.com:module_ref:S_to_diff:1.0 - S_to_diff_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+WARNING: [BD 41-1731] Type mismatch between connected pins: /TXD/clk_40(clk) and /TXD/TX_SERIALIZER/clk_div_in(undef)
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_1
+Adding cell -- cern.ch:user:TX_CONTROLLER_SCURVE:2.0 - TX_CONTROLLER_SCURVE_0
+Adding cell -- xilinx.com:module_ref:inverse_reverse:1.0 - inverse_reverse_master
+Adding cell -- xilinx.com:module_ref:F1_F2_FILTER:1.0 - F1_F2_FILTER
+Adding cell -- xilinx.com:module_ref:diff_to_diff:1.0 - diff_to_diff
+Adding cell -- xilinx.com:module_ref:bitslip_Generator:1.0 - bitslip_Generator_Master
+Adding cell -- xilinx.com:ip:axis_clock_converter:1.1 - axis_clock_converter_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - axi_clock_converter_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:module_ref:bitslip_Generator:1.0 - bitslip_Generator_Slave
+Adding cell -- xilinx.com:module_ref:inverse_reverse:1.0 - inverse_reverse_slave
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- cern.ch:user:rx_controller_v1_0:1.0 - rx_controller_SCURVE
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - PRE_2
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - POST_2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /RXD/Slave_IDELAY/clk_in(clk) and /RXD/Slave_IDELAY/PRE_2/delay_clk(undef)
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - PRE_1
+Adding cell -- xilinx.com:ip:selectio_wiz:5.1 - POST_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /RXD/Master_IDELAY/clk_in(clk) and /RXD/Master_IDELAY/PRE_1/delay_clk(undef)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_1
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_2
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s04_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s04_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s03_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s03_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s02_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s02_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s01_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s01_data_fifo
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding cell -- xilinx.com:ip:axi_data_fifo:2.1 - s00_data_fifo
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Successfully read diagram <HDLC_DPA> from BD file <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd>
+WARNING: [BD 41-1731] Type mismatch between connected pins: /c_counter_binary_0/THRESH0(data) and /c_shift_ram_0/CE(ce)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /phy_rst_n(rst) and /c_shift_ram_0/Q(data)
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1222.379 ; gain = 105.566
+delete_bd_objs [get_bd_nets RXD/Master_IDELAY/PRE_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/CLK_40mhZ] [get_bd_nets RXD/Master_IDELAY/Receiver_logic_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/in_delay_tap_in2_1] [get_bd_nets RXD/Master_IDELAY/bitslip_signal] [get_bd_cells RXD/Master_IDELAY/POST_1]
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets RXD/Master_IDELAY/PRE_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/CLK_40mhZ] [get_bd_nets RXD/Master_IDELAY/Receiver_logic_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/in_delay_tap_in2_1] [get_bd_nets RXD/Master_IDELAY/bitslip_signal] [get_bd_cells RXD/Master_IDELAY/POST_1]'
+delete_bd_objs [get_bd_nets RXD/Master_IDELAY/PRE_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/CLK_40mhZ] [get_bd_nets RXD/Master_IDELAY/Receiver_logic_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/in_delay_tap_in2_1] [get_bd_nets RXD/Master_IDELAY/bitslip_signal] [get_bd_cells RXD/Master_IDELAY/POST_1]
+connect_bd_net [get_bd_pins RXD/Master_IDELAY/data_in_to_device] [get_bd_pins RXD/Master_IDELAY/PRE_1/in_delay_tap_out]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins RXD/Master_IDELAY/data_in_to_device] [get_bd_pins RXD/Master_IDELAY/PRE_1/in_delay_tap_out]'
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets RXD/Master_IDELAY/PRE_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/CLK_40mhZ] [get_bd_nets RXD/Master_IDELAY/Receiver_logic_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/in_delay_tap_in2_1] [get_bd_nets RXD/Master_IDELAY/bitslip_signal] [get_bd_cells RXD/Master_IDELAY/POST_1]'
+delete_bd_objs [get_bd_nets RXD/Master_IDELAY/PRE_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/CLK_40mhZ] [get_bd_nets RXD/Master_IDELAY/Receiver_logic_data_in_to_device] [get_bd_nets RXD/Master_IDELAY/in_delay_tap_in2_1] [get_bd_nets RXD/Master_IDELAY/bitslip_signal] [get_bd_cells RXD/Master_IDELAY/POST_1]
+startgroup
+set_property -dict [list CONFIG.USE_SERIALIZATION {true} CONFIG.SERIALIZATION_FACTOR {8} CONFIG.SYSTEM_DATA_WIDTH {1} CONFIG.SELIO_INTERFACE_TYPE {NETWORKING}] [get_bd_cells RXD/Master_IDELAY/PRE_1]
+WARNING: [BD 41-1684] Pin /RXD/Master_IDELAY/PRE_1/delay_clk is now disabled. All connections to this pin have been removed. 
+endgroup
+connect_bd_net [get_bd_pins RXD/Master_IDELAY/data_in_to_device] [get_bd_pins RXD/Master_IDELAY/PRE_1/delay_locked]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins RXD/Master_IDELAY/data_in_to_device] [get_bd_pins RXD/Master_IDELAY/PRE_1/delay_locked]'
+connect_bd_net [get_bd_pins RXD/Master_IDELAY/data_in_to_device] [get_bd_pins RXD/Master_IDELAY/PRE_1/data_in_to_device]
+delete_bd_objs [get_bd_nets RXD/Slave_IDELAY/clk_div_in_1] [get_bd_nets RXD/Slave_IDELAY/bitslip_1] [get_bd_nets RXD/Slave_IDELAY/PRE_data_in_to_device] [get_bd_nets RXD/Slave_IDELAY/in_delay_tap_in4_1] [get_bd_nets RXD/Slave_IDELAY/Receiver_logic_data_in_to_device] [get_bd_cells RXD/Slave_IDELAY/POST_2]
+startgroup
+set_property -dict [list CONFIG.USE_SERIALIZATION {true} CONFIG.SERIALIZATION_FACTOR {8} CONFIG.SYSTEM_DATA_WIDTH {1} CONFIG.SELIO_INTERFACE_TYPE {NETWORKING}] [get_bd_cells RXD/Slave_IDELAY/PRE_2]
+WARNING: [BD 41-1684] Pin /RXD/Slave_IDELAY/PRE_2/delay_clk is now disabled. All connections to this pin have been removed. 
+endgroup
+connect_bd_net [get_bd_pins RXD/Slave_IDELAY/data_in_to_device] [get_bd_pins RXD/Slave_IDELAY/PRE_2/data_in_to_device]
+connect_bd_net [get_bd_pins RXD/Slave_IDELAY/bitslip] [get_bd_pins RXD/Slave_IDELAY/PRE_2/bitslip]
+connect_bd_net [get_bd_pins RXD/Master_IDELAY/bitslip] [get_bd_pins RXD/Master_IDELAY/PRE_1/bitslip]
+connect_bd_net [get_bd_pins RXD/Master_IDELAY/clk40] [get_bd_pins RXD/Master_IDELAY/PRE_1/clk_div_in]
+connect_bd_net [get_bd_pins RXD/Slave_IDELAY/clk_div_in] [get_bd_pins RXD/Slave_IDELAY/PRE_2/clk_div_in]
+save_bd_design
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd> 
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ui/bd_594dd449.ui> 
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /c_shift_ram_0 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+WARNING: [BD 41-926] Following properties on interface pin /axi_ethernet_0/s_axi have been updated from connected ip. They may not be synchronized with cell properties. You can set property on interface pin directly to confirm the value and resolve the warning.
+	SUPPORTS_NARROW_BURST=0
+	MAX_BURST_LENGTH=1
+
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/s_axi_lite_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/axis_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/gtx_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/ref_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /RXD/inverse_reverse_master/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /RXD/inverse_reverse_slave/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /TXD/AP_Generator_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /TXD/inverse_reverse_TX/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd> 
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ui/bd_594dd449.ui> 
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Trigger_logic_block/TU_SOT/in_delay_data_inc'(1) to net 'xlconstant_1_dout'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Trigger_logic_block/TU_SOT/in_delay_data_ce'(1) to net 'xlconstant_1_dout'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(16) - Only lower order bits will be connected.
+VHDL Output written to : H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/synth/HDLC_DPA.v
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Trigger_logic_block/TU_SOT/in_delay_data_inc'(1) to net 'xlconstant_1_dout'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Trigger_logic_block/TU_SOT/in_delay_data_ce'(1) to net 'xlconstant_1_dout'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(16) - Only lower order bits will be connected.
+VHDL Output written to : H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/sim/HDLC_DPA.v
+VHDL Output written to : H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/hdl/HDLC_DPA_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_clock_converter_0 .
+Exporting to file h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_axi_ethernet_0_0/bd_0/hw_handoff/HDLC_DPA_axi_ethernet_0_0.hwh
+Generated Block Design Tcl file h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_axi_ethernet_0_0/bd_0/hw_handoff/HDLC_DPA_axi_ethernet_0_0_bd.tcl
+Generated Hardware Definition File h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_axi_ethernet_0_0/bd_0/synth/HDLC_DPA_axi_ethernet_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block success_master .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block bit_slip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block S_to_diff_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/TX_SERIALIZER .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/AP_Generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/inverse_reverse_TX .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/axis_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/SC_try_v1_0_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/clock_converter_SC_TRY .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/S_to_diff_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/tx_controller/axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/tx_controller/TX_CONTROLLER_SCURVE_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/inverse_reverse_master .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/F1_F2_FILTER .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/diff_to_diff .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/bitslip_Generator_Master .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/axis_clock_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/Slave_IDELAY/PRE_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/Slave_IDELAY/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/Slave_IDELAY/xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/Master_IDELAY/PRE_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/Master_IDELAY/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dpa_hier/axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dpa_hier/dpa_controller_v1_0_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block success_slave .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/bitslip_Generator_Slave .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/inverse_reverse_slave .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/rx_controller_SCURVE .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/TU_SOT .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/TU_TXD_BUS .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/Trigger_controller_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/xlconstant_1 .
+Exporting to file h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_system_ila_0_0/bd_0/hw_handoff/HDLC_DPA_system_ila_0_0.hwh
+Generated Block Design Tcl file h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_system_ila_0_0/bd_0/hw_handoff/HDLC_DPA_system_ila_0_0_bd.tcl
+Generated Hardware Definition File h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_system_ila_0_0/bd_0/synth/HDLC_DPA_system_ila_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/system_ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_2 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_auto_pc_0/HDLC_DPA_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m08_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/m01_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/m00_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s04_data_fifo_0/HDLC_DPA_s04_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s03_data_fifo_0/HDLC_DPA_s03_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s02_data_fifo_0/HDLC_DPA_s02_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s01_data_fifo_0/HDLC_DPA_s01_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s00_data_fifo_0/HDLC_DPA_s00_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_data_fifo .
+Exporting to file H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/hw_handoff/HDLC_DPA.hwh
+Generated Block Design Tcl file H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/hw_handoff/HDLC_DPA_bd.tcl
+Generated Hardware Definition File H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/synth/HDLC_DPA.hwdef
+[Mon May 20 15:39:14 2019] Launched synth_1...
+Run output will be captured here: H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.runs/synth_1/runme.log
+[Mon May 20 15:39:14 2019] Launched impl_1...
+Run output will be captured here: H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:45 ; elapsed = 00:02:31 . Memory (MB): peak = 1881.605 ; gain = 490.996
+reset_run synth_1
+delete_bd_objs [get_bd_nets dpa_hier_stap_post]
+delete_bd_objs [get_bd_nets dpa_hier_mtap_post]
+delete_bd_objs [get_bd_nets RXD/in_delay_tap_in4_1]
+delete_bd_objs [get_bd_pins RXD/in_delay_tap_in4]
+delete_bd_objs [get_bd_nets RXD/in_delay_tap_in2_1]
+delete_bd_objs [get_bd_pins RXD/Master_IDELAY/in_delay_tap_in2]
+delete_bd_objs [get_bd_pins RXD/in_delay_tap_in2]
+set_property name MASTER [get_bd_cells RXD/Master_IDELAY/PRE_1]
+set_property name SLAVE [get_bd_cells RXD/Slave_IDELAY/PRE_2]
+save_bd_design
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd> 
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ui/bd_594dd449.ui> 
+delete_bd_objs [get_bd_pins RXD/Slave_IDELAY/in_delay_tap_in4]
+delete_bd_objs [get_bd_nets RXD/diff_to_diff_RXD_N_O] [get_bd_nets RXD/in_delay_tap_in3_1] [get_bd_nets RXD/bitslip_Generator_Slave_bitslip] [get_bd_cells RXD/Slave_IDELAY]
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_nets RXD/diff_to_diff_RXD_N_O] [get_bd_nets RXD/in_delay_tap_in3_1] [get_bd_nets RXD/bitslip_Generator_Slave_bitslip] [get_bd_cells RXD/Slave_IDELAY]'
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_pins RXD/Slave_IDELAY/in_delay_tap_in4]'
+delete_bd_objs [get_bd_nets dpa_hier_M_delay_tap] [get_bd_nets dpa_hier_bitTimerCounter] [get_bd_nets TXD_data_out] [get_bd_nets dpa_hier_S_delay_tap] [get_bd_nets dpa_hier_state] [get_bd_nets RXD_data_out] [get_bd_cells ila_0]
+delete_bd_objs [get_bd_nets RXD/bitslip_Generator_Slave_bitslip] [get_bd_nets RXD/bitslip_Generator_Slave_success] [get_bd_cells RXD/bitslip_Generator_Slave]
+delete_bd_objs [get_bd_nets RXD/diff_to_diff_RXD_N_O] [get_bd_nets RXD/in_delay_tap_in3_1] [get_bd_cells RXD/Slave_IDELAY]
+delete_bd_objs [get_bd_nets RXD_success1] [get_bd_intf_nets microblaze_0_axi_periph_M15_AXI] [get_bd_cells success_slave]
+delete_bd_objs [get_bd_pins RXD/success1]
+delete_bd_objs [get_bd_nets RXD/Slave_IDELAY_data_in_to_device] [get_bd_nets RXD/inverse_reverse_1_data_out] [get_bd_cells RXD/inverse_reverse_slave]
+delete_bd_objs [get_bd_pins RXD/data_out]
+delete_bd_objs [get_bd_nets RXD_data_in_to_device1]
+delete_bd_objs [get_bd_pins RXD/data_in_to_device1]
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets dpa_hier_stap_pre] [get_bd_pins RXD/in_delay_tap_in3]
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd> 
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ui/bd_594dd449.ui> 
+launch_runs impl_1 -jobs 4
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /c_shift_ram_0 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+WARNING: [BD 41-926] Following properties on interface pin /axi_ethernet_0/s_axi have been updated from connected ip. They may not be synchronized with cell properties. You can set property on interface pin directly to confirm the value and resolve the warning.
+	SUPPORTS_NARROW_BURST=0
+	MAX_BURST_LENGTH=1
+
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/s_axi_lite_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/axis_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/gtx_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /axi_ethernet_0/ref_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /RXD/inverse_reverse_master/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /TXD/AP_Generator_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /TXD/inverse_reverse_TX/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDLC_DPA_mig_7series_0_0_ui_clk 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/dpa_hier/S_data
+
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd> 
+Wrote  : <H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ui/bd_594dd449.ui> 
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Trigger_logic_block/TU_SOT/in_delay_data_inc'(1) to net 'xlconstant_1_dout'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Trigger_logic_block/TU_SOT/in_delay_data_ce'(1) to net 'xlconstant_1_dout'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(16) - Only lower order bits will be connected.
+VHDL Output written to : H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/synth/HDLC_DPA.v
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Trigger_logic_block/TU_SOT/in_delay_data_inc'(1) to net 'xlconstant_1_dout'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Trigger_logic_block/TU_SOT/in_delay_data_ce'(1) to net 'xlconstant_1_dout'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(16) - Only lower order bits will be connected.
+VHDL Output written to : H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/sim/HDLC_DPA.v
+VHDL Output written to : H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/hdl/HDLC_DPA_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_clock_converter_0 .
+Exporting to file h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_axi_ethernet_0_0/bd_0/hw_handoff/HDLC_DPA_axi_ethernet_0_0.hwh
+Generated Block Design Tcl file h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_axi_ethernet_0_0/bd_0/hw_handoff/HDLC_DPA_axi_ethernet_0_0_bd.tcl
+Generated Hardware Definition File h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_axi_ethernet_0_0/bd_0/synth/HDLC_DPA_axi_ethernet_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FIFO .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block success_master .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block bit_slip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block S_to_diff_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/TX_SERIALIZER .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/AP_Generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/inverse_reverse_TX .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/axis_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/SC_try_v1_0_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/clock_converter_SC_TRY .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/S_to_diff_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/tx_controller/axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/tx_controller/TX_CONTROLLER_SCURVE_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/inverse_reverse_master .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/F1_F2_FILTER .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/diff_to_diff .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/bitslip_Generator_Master .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/axis_clock_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/Master_IDELAY/MASTER .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/Master_IDELAY/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dpa_hier/axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dpa_hier/dpa_controller_v1_0_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TXD/xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block RXD/rx_controller_SCURVE .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/TU_SOT .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/TU_TXD_BUS .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/Trigger_controller_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/axi_clock_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/xlconstant_1 .
+Exporting to file h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_system_ila_0_0/bd_0/hw_handoff/HDLC_DPA_system_ila_0_0.hwh
+Generated Block Design Tcl file h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_system_ila_0_0/bd_0/hw_handoff/HDLC_DPA_system_ila_0_0_bd.tcl
+Generated Hardware Definition File h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_system_ila_0_0/bd_0/synth/HDLC_DPA_system_ila_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Trigger_logic_block/system_ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_2 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_auto_pc_0/HDLC_DPA_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m08_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/m01_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/m00_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s04_data_fifo_0/HDLC_DPA_s04_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s03_data_fifo_0/HDLC_DPA_s03_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s02_data_fifo_0/HDLC_DPA_s02_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s01_data_fifo_0/HDLC_DPA_s01_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_data_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_regslice .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'h:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/ip/HDLC_DPA_s00_data_fifo_0/HDLC_DPA_s00_data_fifo_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_data_fifo .
+Exporting to file H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/hw_handoff/HDLC_DPA.hwh
+Generated Block Design Tcl file H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/hw_handoff/HDLC_DPA_bd.tcl
+Generated Hardware Definition File H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/synth/HDLC_DPA.hwdef
+[Mon May 20 15:49:55 2019] Launched synth_1...
+Run output will be captured here: H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.runs/synth_1/runme.log
+[Mon May 20 15:49:55 2019] Launched impl_1...
+Run output will be captured here: H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:44 ; elapsed = 00:02:20 . Memory (MB): peak = 2072.910 ; gain = 152.535
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -jobs 4
+[Mon May 20 15:52:18 2019] Launched synth_1...
+Run output will be captured here: H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.runs/synth_1/runme.log
+[Mon May 20 15:52:18 2019] Launched impl_1...
+Run output will be captured here: H:/vfat3_firmware_fast/TRIGGER/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 20 15:58:41 2019...

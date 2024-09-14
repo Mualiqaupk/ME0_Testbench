@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/vfat3_firmware_fast/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6575fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="388"></NameColumnWidth>
+      <ValueColumnWidth column_width="61"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="HDLC_DPA_i/RXD_data_in_to_device" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/RXD_data_in_to_device[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RXD_data_in_to_device[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/RXD_data_in_to_device1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/RXD_data_in_to_device1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RXD_data_in_to_device1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/dpa_hier_M_delay_tap" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/dpa_hier_M_delay_tap[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dpa_hier_M_delay_tap[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/dpa_hier_S_delay_tap" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/dpa_hier_S_delay_tap[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dpa_hier_S_delay_tap[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/dpa_hier_state" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/dpa_hier_state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dpa_hier_state[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/dpa_hier_bitTimerCounter" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/dpa_hier_bitTimerCounter[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dpa_hier_bitTimerCounter[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/dpa_hier_mtap_pre" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/dpa_hier_mtap_pre[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dpa_hier_mtap_pre[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/dpa_hier_mtap_post" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/dpa_hier_mtap_post[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dpa_hier_mtap_post[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/dpa_hier_stap_pre" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/dpa_hier_stap_pre[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dpa_hier_stap_pre[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/dpa_hier_stap_post" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/dpa_hier_stap_post[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dpa_hier_stap_post[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/RXD_data_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/RXD_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RXD_data_out[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="HDLC_DPA_i/TXD_data_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">HDLC_DPA_i/TXD_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TXD_data_out[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,445 @@
+11:16:08 INFO  : Registering command handlers for SDK TCF services
+11:16:09 INFO  : Launching XSCT server: xsct.bat -interactive D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\temp_xsdb_launch_script.tcl
+11:16:11 INFO  : XSCT server has started successfully.
+11:16:11 INFO  : Successfully done setting XSCT server connection channel  
+11:16:11 INFO  : Successfully done setting SDK workspace  
+11:16:11 INFO  : Processing command line option -hwspec D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/HDLC_DPA_wrapper.hdf.
+11:30:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:30:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+11:30:12 INFO  : FPGA configured successfully with bitstream "D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/HDLC_DPA_wrapper_hw_platform_0/download.bit"
+11:30:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+11:30:25 INFO  : 'fpga -state' command is executed.
+11:30:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:30:25 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+11:30:25 INFO  : 'jtag frequency' command is executed.
+11:30:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:25 INFO  : Processor reset is completed for 'microblaze_0'.
+11:30:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:27 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+11:30:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+11:30:27 INFO  : Memory regions updated for context MicroBlaze #0
+11:30:27 INFO  : Memory regions updated for context MicroBlaze #0
+11:30:27 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:27 INFO  : 'con' command is executed.
+11:30:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+11:30:27 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+11:34:33 INFO  : Disconnected from the channel tcfchan#1.
+11:34:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+11:34:34 INFO  : 'fpga -state' command is executed.
+11:34:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:34:34 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+11:34:34 INFO  : 'jtag frequency' command is executed.
+11:34:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:34 INFO  : Processor reset is completed for 'microblaze_0'.
+11:34:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:37 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+11:34:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+11:34:37 INFO  : Memory regions updated for context MicroBlaze #0
+11:34:37 INFO  : Memory regions updated for context MicroBlaze #0
+11:34:37 INFO  : Context for processor 'microblaze_0' is selected.
+11:34:37 INFO  : 'con' command is executed.
+11:34:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+11:34:37 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+11:42:41 INFO  : Disconnected from the channel tcfchan#2.
+11:43:28 INFO  : Registering command handlers for SDK TCF services
+11:43:28 INFO  : Launching XSCT server: xsct.bat -interactive D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\temp_xsdb_launch_script.tcl
+11:43:30 INFO  : XSCT server has started successfully.
+11:43:32 INFO  : Successfully done setting XSCT server connection channel  
+11:43:32 INFO  : Successfully done setting SDK workspace  
+11:43:32 INFO  : Processing command line option -hwspec D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/HDLC_DPA_wrapper.hdf.
+11:43:32 INFO  : Checking for hwspec changes in the project HDLC_DPA_wrapper_hw_platform_0.
+11:48:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+11:48:35 INFO  : 'fpga -state' command is executed.
+11:48:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:35 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+11:48:35 INFO  : 'jtag frequency' command is executed.
+11:48:35 INFO  : Context for processor 'microblaze_0' is selected.
+11:48:35 INFO  : Processor reset is completed for 'microblaze_0'.
+11:48:35 INFO  : Context for processor 'microblaze_0' is selected.
+11:48:38 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+11:48:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+11:48:38 INFO  : Memory regions updated for context MicroBlaze #0
+11:48:38 INFO  : Memory regions updated for context MicroBlaze #0
+11:48:38 INFO  : Context for processor 'microblaze_0' is selected.
+11:48:38 INFO  : 'con' command is executed.
+11:48:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+11:48:38 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+11:48:46 INFO  : Disconnected from the channel tcfchan#1.
+15:08:38 INFO  : Registering command handlers for SDK TCF services
+15:08:39 INFO  : Launching XSCT server: xsct.bat -interactive D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\temp_xsdb_launch_script.tcl
+15:08:41 INFO  : XSCT server has started successfully.
+15:08:43 INFO  : Successfully done setting XSCT server connection channel  
+15:08:43 INFO  : Successfully done setting SDK workspace  
+15:08:43 INFO  : Processing command line option -hwspec D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/HDLC_DPA_wrapper.hdf.
+15:08:43 INFO  : Checking for hwspec changes in the project HDLC_DPA_wrapper_hw_platform_0.
+13:09:13 INFO  : Registering command handlers for SDK TCF services
+13:09:14 INFO  : Launching XSCT server: xsct.bat -interactive D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\temp_xsdb_launch_script.tcl
+13:09:17 INFO  : XSCT server has started successfully.
+13:09:17 INFO  : Successfully done setting XSCT server connection channel  
+13:09:20 INFO  : Successfully done setting SDK workspace  
+13:09:20 INFO  : Processing command line option -hwspec D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/HDLC_DPA_wrapper.hdf.
+13:09:20 INFO  : Checking for hwspec changes in the project HDLC_DPA_wrapper_hw_platform_0.
+13:09:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:09:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:09:55 INFO  : FPGA configured successfully with bitstream "D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/HDLC_DPA_wrapper_hw_platform_0/download.bit"
+13:10:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:10:50 INFO  : 'fpga -state' command is executed.
+13:10:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:10:50 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+13:10:50 INFO  : 'jtag frequency' command is executed.
+13:10:50 INFO  : Context for processor 'microblaze_0' is selected.
+13:10:50 INFO  : Processor reset is completed for 'microblaze_0'.
+13:10:50 INFO  : Context for processor 'microblaze_0' is selected.
+13:10:53 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+13:10:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+13:10:53 INFO  : Memory regions updated for context MicroBlaze #0
+13:10:53 INFO  : Memory regions updated for context MicroBlaze #0
+13:10:53 INFO  : Context for processor 'microblaze_0' is selected.
+13:10:53 INFO  : 'con' command is executed.
+13:10:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+13:10:53 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+13:17:42 INFO  : Disconnected from the channel tcfchan#1.
+13:17:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:17:43 INFO  : 'fpga -state' command is executed.
+13:17:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:17:44 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+13:17:44 INFO  : 'jtag frequency' command is executed.
+13:17:44 INFO  : Context for processor 'microblaze_0' is selected.
+13:17:44 INFO  : Processor reset is completed for 'microblaze_0'.
+13:17:44 INFO  : Context for processor 'microblaze_0' is selected.
+13:17:46 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+13:17:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+13:17:46 INFO  : Memory regions updated for context MicroBlaze #0
+13:17:46 INFO  : Memory regions updated for context MicroBlaze #0
+13:17:46 INFO  : Context for processor 'microblaze_0' is selected.
+13:17:46 INFO  : 'con' command is executed.
+13:17:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+13:17:46 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+13:19:21 INFO  : Disconnected from the channel tcfchan#2.
+13:19:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:19:22 INFO  : 'fpga -state' command is executed.
+13:19:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:19:22 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+13:19:22 INFO  : 'jtag frequency' command is executed.
+13:19:22 INFO  : Context for processor 'microblaze_0' is selected.
+13:19:23 INFO  : Processor reset is completed for 'microblaze_0'.
+13:19:23 INFO  : Context for processor 'microblaze_0' is selected.
+13:19:25 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+13:19:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+13:19:25 INFO  : Memory regions updated for context MicroBlaze #0
+13:19:25 INFO  : Memory regions updated for context MicroBlaze #0
+13:19:25 INFO  : Context for processor 'microblaze_0' is selected.
+13:19:25 INFO  : 'con' command is executed.
+13:19:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+13:19:25 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+13:22:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:22:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:22:17 INFO  : FPGA configured successfully with bitstream "D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/HDLC_DPA_wrapper_hw_platform_0/download.bit"
+13:24:29 INFO  : Disconnected from the channel tcfchan#3.
+13:24:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:24:30 INFO  : 'fpga -state' command is executed.
+13:24:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:24:30 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+13:24:30 INFO  : 'jtag frequency' command is executed.
+13:24:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:30 INFO  : Processor reset is completed for 'microblaze_0'.
+13:24:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:33 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+13:24:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+13:24:33 INFO  : Memory regions updated for context MicroBlaze #0
+13:24:33 INFO  : Memory regions updated for context MicroBlaze #0
+13:24:33 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:33 INFO  : 'con' command is executed.
+13:24:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+13:24:33 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+13:49:44 INFO  : Disconnected from the channel tcfchan#4.
+13:49:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:49:45 INFO  : 'fpga -state' command is executed.
+13:49:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:49:45 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+13:49:45 INFO  : 'jtag frequency' command is executed.
+13:49:45 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:46 INFO  : Processor reset is completed for 'microblaze_0'.
+13:49:46 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:48 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+13:49:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+13:49:48 INFO  : Memory regions updated for context MicroBlaze #0
+13:49:48 INFO  : Memory regions updated for context MicroBlaze #0
+13:49:48 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:48 INFO  : 'con' command is executed.
+13:49:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+13:49:48 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+13:52:32 INFO  : Disconnected from the channel tcfchan#5.
+13:52:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:52:33 INFO  : 'fpga -state' command is executed.
+13:52:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:52:33 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+13:52:33 INFO  : 'jtag frequency' command is executed.
+13:52:33 INFO  : Context for processor 'microblaze_0' is selected.
+13:52:33 INFO  : Processor reset is completed for 'microblaze_0'.
+13:52:33 INFO  : Context for processor 'microblaze_0' is selected.
+13:52:36 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+13:52:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+13:52:36 INFO  : Memory regions updated for context MicroBlaze #0
+13:52:36 INFO  : Memory regions updated for context MicroBlaze #0
+13:52:36 INFO  : Context for processor 'microblaze_0' is selected.
+13:52:36 INFO  : 'con' command is executed.
+13:52:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+13:52:36 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+13:55:38 INFO  : Disconnected from the channel tcfchan#6.
+13:55:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:55:40 INFO  : 'fpga -state' command is executed.
+13:55:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:55:40 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+13:55:40 INFO  : 'jtag frequency' command is executed.
+13:55:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:55:40 INFO  : Processor reset is completed for 'microblaze_0'.
+13:55:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:55:42 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+13:55:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+13:55:43 INFO  : Memory regions updated for context MicroBlaze #0
+13:55:43 INFO  : Memory regions updated for context MicroBlaze #0
+13:55:43 INFO  : Context for processor 'microblaze_0' is selected.
+13:55:43 INFO  : 'con' command is executed.
+13:55:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+13:55:43 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+13:57:44 INFO  : Disconnected from the channel tcfchan#7.
+13:57:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+13:57:45 INFO  : 'fpga -state' command is executed.
+13:57:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:57:46 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+13:57:46 INFO  : 'jtag frequency' command is executed.
+13:57:46 INFO  : Context for processor 'microblaze_0' is selected.
+13:57:46 INFO  : Processor reset is completed for 'microblaze_0'.
+13:57:46 INFO  : Context for processor 'microblaze_0' is selected.
+13:57:48 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+13:57:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+13:57:48 INFO  : Memory regions updated for context MicroBlaze #0
+13:57:48 INFO  : Memory regions updated for context MicroBlaze #0
+13:57:49 INFO  : Context for processor 'microblaze_0' is selected.
+13:57:49 INFO  : 'con' command is executed.
+13:57:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+13:57:49 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+14:00:16 INFO  : Disconnected from the channel tcfchan#8.
+14:00:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+14:00:17 INFO  : 'fpga -state' command is executed.
+14:00:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:00:17 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+14:00:17 INFO  : 'jtag frequency' command is executed.
+14:00:18 INFO  : Context for processor 'microblaze_0' is selected.
+14:00:18 INFO  : Processor reset is completed for 'microblaze_0'.
+14:00:18 INFO  : Context for processor 'microblaze_0' is selected.
+14:00:20 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+14:00:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+14:00:20 INFO  : Memory regions updated for context MicroBlaze #0
+14:00:20 INFO  : Memory regions updated for context MicroBlaze #0
+14:00:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:00:20 INFO  : 'con' command is executed.
+14:00:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+14:00:20 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+14:02:31 INFO  : Disconnected from the channel tcfchan#9.
+14:02:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+14:02:32 INFO  : 'fpga -state' command is executed.
+14:02:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:02:32 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+14:02:32 INFO  : 'jtag frequency' command is executed.
+14:02:32 INFO  : Context for processor 'microblaze_0' is selected.
+14:02:32 INFO  : Processor reset is completed for 'microblaze_0'.
+14:02:32 INFO  : Context for processor 'microblaze_0' is selected.
+14:02:35 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+14:02:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+14:02:35 INFO  : Memory regions updated for context MicroBlaze #0
+14:02:35 INFO  : Memory regions updated for context MicroBlaze #0
+14:02:35 INFO  : Context for processor 'microblaze_0' is selected.
+14:02:35 INFO  : 'con' command is executed.
+14:02:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+14:02:35 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+14:19:31 INFO  : Disconnected from the channel tcfchan#10.
+14:19:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A" && level==0} -index 0' command is executed.
+14:19:32 INFO  : 'fpga -state' command is executed.
+14:19:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:19:32 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A250A9A' is selected.
+14:19:32 INFO  : 'jtag frequency' command is executed.
+14:19:32 INFO  : Context for processor 'microblaze_0' is selected.
+14:19:32 INFO  : Processor reset is completed for 'microblaze_0'.
+14:19:32 INFO  : Context for processor 'microblaze_0' is selected.
+14:19:35 INFO  : The application 'D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf' is downloaded to processor 'microblaze_0'.
+14:19:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+dow D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/ME0/Debug/ME0.elf
+----------------End of Script----------------
+
+14:19:35 INFO  : Memory regions updated for context MicroBlaze #0
+14:19:35 INFO  : Memory regions updated for context MicroBlaze #0
+14:19:35 INFO  : Context for processor 'microblaze_0' is selected.
+14:19:35 INFO  : 'con' command is executed.
+14:19:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A250A9A"} -index 0
+con
+----------------End of Script----------------
+
+14:19:35 INFO  : Launch script is exported to file 'D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_me0.elf_on_local.tcl'
+14:31:36 INFO  : Disconnected from the channel tcfchan#11.
+09:55:11 INFO  : Registering command handlers for SDK TCF services
+09:55:11 INFO  : Launching XSCT server: xsct.bat -interactive D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0_V2\VBV3_HDLC_FIXED.sdk\temp_xsdb_launch_script.tcl
+09:55:14 INFO  : XSCT server has started successfully.
+09:55:14 INFO  : Successfully done setting XSCT server connection channel  
+09:55:17 INFO  : Successfully done setting SDK workspace  
+09:55:17 INFO  : Processing command line option -hwspec D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0_V2/VBV3_HDLC_FIXED.sdk/HDLC_DPA_wrapper.hdf.
+09:55:17 INFO  : Checking for hwspec changes in the project HDLC_DPA_wrapper_hw_platform_0.
+16:10:27 INFO  : Registering command handlers for SDK TCF services
+16:10:28 INFO  : Launching XSCT server: xsct.bat -interactive D:\practical_work\CERN_Related\VFAT3_Testbench\ME0\VBV3_ME0\VBV3_HDLC_FIXED.sdk\temp_xsdb_launch_script.tcl
+16:10:31 INFO  : XSCT server has started successfully.
+16:10:31 INFO  : Successfully done setting XSCT server connection channel  
+16:10:34 INFO  : Successfully done setting SDK workspace  
+16:10:34 INFO  : Processing command line option -hwspec D:/practical_work/CERN_Related/VFAT3_Testbench/ME0/VBV3_ME0/VBV3_HDLC_FIXED.sdk/HDLC_DPA_wrapper.hdf.
+16:33:49 INFO  : Refreshed build settings on project BL_QSPI
+16:37:10 INFO  : Refreshed build settings on project BL_QSPI
+16:40:07 INFO  : Refreshed build settings on project BL_QSPI
+19:10:30 INFO  : Refreshed build settings on project BL_QSPI

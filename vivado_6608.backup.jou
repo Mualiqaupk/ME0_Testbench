@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Sep 27 18:39:25 2018
+# Process ID: 6608
+# Current directory: C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18588 C:\Xilinx_Projects\Counter\VBV3_HDLC_FIXED\VBV3_HDLC_FIXED.xpr
+# Log file: C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/vivado.log
+# Journal file: C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/HDLC_DPA/HDLC_DPA.bd}
+set_property  ip_repo_paths  {c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo G:/Projects/vfat3verifboard/VBV3_HDLC_FIXED/repo} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo [current_project]
+update_ip_catalog
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {mb_subsystem_dpa_dpa_controller_0_0 mb_subsystem_dpa_rx_controller_0_0 mb_subsystem_dpa_TX_CONTROLLER_0_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {mb_subsystem_dpa_dpa_controller_0_0 mb_subsystem_dpa_rx_controller_0_0 mb_subsystem_dpa_TX_CONTROLLER_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd]
+export_ip_user_files -of_objects [get_files C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.srcs/sources_1/bd/mb_subsystem_dpa/mb_subsystem_dpa.bd] -directory C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.ip_user_files/sim_scripts -ip_user_files_dir C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.ip_user_files -ipstatic_source_dir C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.cache/compile_simlib/modelsim} {questa=C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.cache/compile_simlib/questa} {riviera=C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.cache/compile_simlib/riviera} {activehdl=C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+ipx::infer_core -as_library true C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/AXI_TX_CONTROLLER_1.0
+ipx::edit_ip_in_project -upgrade true -name edit_ip_project -directory C:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/VBV3_HDLC_FIXED.tmp c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/AXI_TX_CONTROLLER_1.0/component.xml
+ipx::current_core c:/Xilinx_Projects/Counter/VBV3_HDLC_FIXED/repo/AXI_TX_CONTROLLER_1.0/component.xml
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_project

@@ -1,0 +1,36 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port clk_in -pg 1 -y 60 -defaultsOSRD
+preplace port clk40 -pg 1 -y 80 -defaultsOSRD
+preplace port ref_clock -pg 1 -y 500 -defaultsOSRD
+preplace port io_reset -pg 1 -y 100 -defaultsOSRD
+preplace portBus data_in_from_pins -pg 1 -y 40 -defaultsOSRD
+preplace portBus data_in_from_pins1 -pg 1 -y 300 -defaultsOSRD
+preplace portBus data_in_to_device -pg 1 -y 150 -defaultsOSRD
+preplace portBus in_delay_tap_in1 -pg 1 -y 140 -defaultsOSRD
+preplace portBus in_delay_tap_in2 -pg 1 -y 400 -defaultsOSRD
+preplace portBus data_in_to_device2 -pg 1 -y 410 -defaultsOSRD
+preplace portBus bitslip -pg 1 -y 220 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 350 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -y 450 -defaultsOSRD
+preplace inst slave -pg 1 -lvl 2 -y 390 -defaultsOSRD
+preplace inst selectio_wiz_0 -pg 1 -lvl 2 -y 120 -defaultsOSRD
+preplace netloc slave_data_in_to_device 1 2 1 NJ
+preplace netloc data_in_from_pins1_1 1 0 2 NJ 300 NJ
+preplace netloc clk40_1 1 0 2 NJ 80 180
+preplace netloc bitslip_1 1 0 2 NJ 220 220
+preplace netloc util_vector_logic_0_Res 1 0 2 NJ 100 190
+preplace netloc in_delay_tap_in1_1 1 0 2 20J 130 NJ
+preplace netloc in_delay_reset1_1 1 1 1 200
+preplace netloc selectio_wiz_0_data_in_to_device 1 2 1 570J
+preplace netloc clk_wiz_1_clk_out1 1 0 2 NJ 60 170
+preplace netloc clk_wiz_0_clk_out2 1 0 2 NJ 500 210
+preplace netloc Net 1 1 1 160
+preplace netloc data_in_from_pins_1 1 0 2 20J 30 NJ
+preplace netloc in_delay_tap_in2_1 1 0 2 NJ 400 NJ
+levelinfo -pg 1 0 90 400 600 -top -20 -bot 530
+",
+}
+0
